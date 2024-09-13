@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: block;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.botao-menu {
+    color: #FFF;
+    background-color: #403c44;
+    padding: 10px;
+    width: 100px; /* Aumenta a largura do botão */
+    margin: 10px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.4);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border:1px solid black;
+}
+
+.todosmenosfooter {
+    display: flex;
+    flex-direction: row;
+    border:1px solid black;
+}
+
+.cabartigo {
+    display: flex;
+    flex-direction: column;
+    border:1px solid black;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    border:1px solid black;
+}
+
+.artigos {
+    display: flex;
+    flex-direction: row;
+}
+
+.artigo {
+    display: flex;
+    border:1px solid black;
+}
+
+.menusozinho {
+    display: flex;
+}
+
+.footersozinho {
+    flex: 1
+}
