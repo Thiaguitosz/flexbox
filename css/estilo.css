@@ -3,10 +3,6 @@
     padding: 0;
 }
 
-body {
-    display: block;
-}
-
 header {
     display: flex;
     justify-content: center;
@@ -19,7 +15,7 @@ header {
     color: #FFF;
     background-color: #403c44;
     padding: 10px;
-    width: 100px; /* Aumenta a largura do botão */
+    width: 100px; 
     margin: 10px;
     height: 50px;
     border-radius: 5px;
@@ -35,40 +31,143 @@ header {
     flex-direction: column;
     width: 50%;
     border:1px solid black;
+    margin: 20px auto;
+    height: 500px;
 }
 
 .todosmenosfooter {
     display: flex;
     flex-direction: row;
     border:1px solid black;
+    flex: 2;
 }
 
 .cabartigo {
     display: flex;
     flex-direction: column;
     border:1px solid black;
+    flex: 2;
 }
 
 .cabecalho {
     display: flex;
     flex-direction: column;
     border:1px solid black;
+    flex: 1;
 }
 
 .artigos {
     display: flex;
     flex-direction: row;
+    flex: 1;
 }
 
-.artigo {
+.artigo-1 {
     display: flex;
     border:1px solid black;
+    flex: 1
+}
+
+.artigo-2 {
+    display: flex;
+    border:1px solid black;
+    flex: 1
 }
 
 .menusozinho {
     display: flex;
+    flex: 1;
 }
 
 .footersozinho {
+    display: flex;
     flex: 1
+}
+
+/* layout 2*/
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border:1px solid black;
+    margin: 20px auto;
+    width: 900px;
+    height: 500px;
+}
+
+.header {
+    display: flex;
+    flex: 1;
+    border:1px solid black;
+}
+
+.main {
+    display: flex;
+    flex: 3;
+    border:1px solid black;
+    flex-direction: row;
+}
+
+.menu {
+    display: flex;
+    border:1px solid black;
+    flex: 1;
+    flex-direction: column;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+button {
+    padding: 3px;
+}
+
+.content {
+    display: flex;
+    border:1px solid black;
+    flex: 2;
+    flex-direction: column;
+}
+
+.ad {
+    display: flex;
+    border:1px solid black;
+    flex: 1;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    flex: 1;
+    border:1px solid black;
+}
+
+/* layout 3 */
+
+.container-3 {
+    display: flex;
+    flex-wrap: wrap;
+    border:1px solid black;
+    margin: 20px auto;
+    height: 600px;
+    width: 600px;
+}
+
+.casa {
+    height: 75px;
+    width: 75px;
+}
+
+.branca {
+    background-color: white;
+}
+
+.preta {
+    background-color: black;
 }
